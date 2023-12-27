@@ -151,7 +151,7 @@ with col1:
 
 with col2:
    texto="<table width=""100%"" style=""border:0px""><tr><td style='font-size: 36px; text-align: center;'><b>State Technical University of Quevedo</b></td></tr>" 
-   texto+="<tr><td style='font-size: 32px; text-align: center;'><b>Department of Science Engineering</b></td></tr>" 
+   texto+="<tr><td style='font-size: 32px; text-align: center;'><b>Department of Engineering Science</b></td></tr>" 
    texto+="</table>" 
    st.markdown(texto, unsafe_allow_html=True)   
         
@@ -162,7 +162,7 @@ with col3:
 
 col1, col2, col3 = st.columns((0.8,6.4,0.8))
 with col2:
-    texto="<p style='font-size: 42px; text-align: center;'><b>Solar Radiation Forecasting in UTEQ using Machine Learning</b></p>"
+    texto="<p style='font-size: 42px; text-align: center;'><b>Solar Radiation Forecasting in the UTEQ using Machine Learning</b></p>"
     st.markdown(texto, unsafe_allow_html=True)  
 
 if st.checkbox("Settings"):
