@@ -190,7 +190,7 @@ if os.path.isfile(nombreModel):
     
     col1, col2, col3 = st.columns((3,3,3))
     with col2:
-        texto="<p style='font-size: 36px; text-align: center;'>Forecasting now %s" %datetime.now().strftime("%H:%M") + "</p>"
+        texto="<p style='font-size: 36px; text-align: center;'>Forecasting now</p>"
         st.markdown(texto, unsafe_allow_html=True)  
 
     col1, col2, col3, col4, col5 = st.columns((3,1,1,1,3))
