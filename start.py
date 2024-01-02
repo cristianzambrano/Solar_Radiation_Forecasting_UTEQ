@@ -169,7 +169,7 @@ if st.checkbox("Settings"):
     st.sidebar.header("Settings")
     tipo = st.sidebar.radio("Action",    ('Predict', 'Test'), index=0, horizontal=True)
     if tipo=='Predict':
-        fuente_datos_predecir = st.sidebar.radio("Source ",('API Wheather', 'Mean of 7 days'), index=0, horizontal=True)
+        fuente_datos_predecir = st.sidebar.radio("Source ",('API Wheather', '7 days average'), index=0, horizontal=True)
     else:
         dias = getListaDiasBD()
         dia_predecir=st.sidebar.selectbox('Choose day', options= dias, index=0)
