@@ -1,5 +1,6 @@
 
 # Solar Radiation Forecasting in UTEQ using Machine Learning
+![Description](https://github.com/cristianzambrano/Solar_Radiation_Forecasting_UTEQ/raw/main/webtest.jpg)
 
 This repository contains a script for solar radiation forecasting at the State Technical University of Quevedo (UTEQ) using Machine Learning models. The code focuses on predicting solar radiation through various modeling techniques, with real-time visualization and weather data retrieval via an API.
 
